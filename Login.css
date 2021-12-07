@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  -webkit-font-smoothing: antialiased;
+  background-color:#ffcc7f;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+.Login{
+  display: block;
+  background:white;
+  width:505px;
+  margin: 100px auto 0 auto;
+  padding:0px 0px 70px 0px;
+  border: #525252 3px solid; 
+  border-color: #2b78e4;
+  height: 500px;
+}
+
+
+.Login h1{
+ margin-top: 10px;
+   margin-left: 20px;
+  font-size:72px;
+  color:#2b78e4;
+  text-align:center;
+  
+}
+
+.Login p{
+  text-align:center;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+.email{
+  background:#ecf0f1;
+  border: #2b78e4 2px solid;
+  color:#AAAAAA;
+  padding: 8px;
+  width:250px;
+  
+  margin-top:10px;
+  margin-left: -10px;
+  font-size:1em;
+  transition-duration:  0.5s;
+}
+
+.email:hover{
+  background-color:#ababab;
+  border-radius:  3px ;
+  color:#ffffff;
+}
+
+
+.password{
+  background:#ecf0f1;
+  border: #2b78e4 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  margin-top:10px;
+  margin-left: -10px;
+  transition-duration: 0.5s;
+}
+
+
+
+.password:hover{
+  background-color:#ababab;
+  border-radius:  3px ;
+  color:#ffffff;
+}
+
+.ButtonLog{
+  float:left;
+  background:#ffcc7f;
+  width:125px;  padding-top:5px;
+  padding-bottom:5px;
+  color:#414040;
+  border-radius:4px;
+  border: #525252 3px solid;
+
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:250px;
+  font-weight:800;
+  font-size:0.8em;
+  transition-duration: 0.5s;
+  transition: 0.3s;
+  
+}
+.ButtonLog:hover {
+  background-color:#c4c4c4;
+
+}
+
+
+/* 
+
+
+.ButtonSign{
+  float:left;
+  background:#FEFEFE;
+  width:190px;  padding-top:50px;
+  padding-bottom:5px;
+  color:#525252;
+  border-radius:40px;
+  border: #525252 3px solid;
+  box-shadow: 5px 7px #888888;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:220px;
+  font-weight:800;
+  font-size:0.8em;
+}
+.check{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:130px;
+  color:#525252;
+  font-weight: bold;
+}
+
+ */
+
+
+label1 {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  margin-right: 35px;
+
+  color: #2b78e4;
+  font-weight: bold;
+ 
+}
+
+label5,p{
+  display: inline-block;
+  margin-top:10px;
+  margin-bottom:10000px;
+  margin-left: 140px;
+  width: -100px;
+}
+
+
+
+
+.ButtonLog:active {
+  background-color: #888888;
+  transform: translateY(4px);
+}
+c {
+  position:fixed;
+  top: 33.6%;
+  right: 39.5%;
+ 
+  
+}
+c:hover {
+  color: #dbdbdb;
+  cursor: pointer;
+}
+
+.notificationlog{
+  color: #D8000C;
+  background-color: #FFBABA;
+  /* background-image: url('https://i.imgur.com/GnyDvKN.png'); */
+  width: 503px;
+  height: 35px;
+margin-top: -100px;
+margin: auto;
+left: 10%;
+right: 10%;
+top: 23%;
+font-size: 20px;
+
+position: fixed;
+}
+
+text1{
+  color: #2b78e4;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:100.1px;
+}

@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  -webkit-font-smoothing: antialiased;
+  background-color:#ffcc7f ;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.SignUp {
+  display: block;
+  background:white;
+  width: 505px;
+  margin: 100px auto 0 auto;
+  padding: 0px 0px 70px 0px;
+  border: #525252 4px solid; 
+  border-color: #2b78e4;
+  height: 580px;
+}
+
+
+.SignUp h1{
+   margin-left: -4px;
+  font-size:46px;
+  color:#2b78e4;
+  text-align:center;
+margin-top: 10px;
+  
+}
+
+
+.SignUp p{
+  text-align:center;
+  margin-left: 140px;
+  margin-top: 70px;
+  font-size: 1.3em;
+}
+
+
+.Firstname{
+  background:#ecf0f1;
+  border: #878484 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  margin-top:10px;
+  margin-left: -10px;
+  font-size:1em;
+}
+
+.middlename{
+  background:#ecf0f1;
+  border: #878484 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  margin-top:10px;
+  margin-left: -10px;
+  font-size:1em;
+}
+
+.lastname{
+  background:#ecf0f1;
+  border: #878484 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  margin-top:10px;
+  margin-left: -10px;
+  font-size:1em;
+}
+
+.emailadd{
+  background:#ecf0f1;
+  border: #2b78e4 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  margin-top:10px;
+  margin-left: 10px;
+  font-size:1em;
+  transition-duration:  0.5s;
+
+}
+.emailadd:hover{
+  background-color:#ababab;
+  border-radius:  3px ;
+  color:#ffffff;
+}
+
+.Passwrd{
+  background:#ecf0f1;
+  border: #2b78e4 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  margin-top:18px;
+  margin-left: 10px;
+  margin-bottom: -1px;
+  font-size:1em;
+  transition-duration:  0.5s;
+
+}
+.Passwrd:hover{
+  background-color:#ababab;
+  border-radius:  3px;
+  color:#ffffff;
+  }
+
+.CPasswrd{
+  background:#ecf0f1;
+  border: #2b78e4 2px solid;
+  padding: 8px;
+ 
+  color:#AAAAAA;
+  margin-top:18px;
+  margin-left: -10px;
+  font-size: 1em;
+  position: relative;
+}
+
+
+
+
+.ButtonSign{
+  float:left;
+  background:#ffcc7f;
+  width:125px;  padding-top:5px;
+  padding-bottom:5px;
+  color:#414040;
+  border-radius:4px;
+  border: #525252 3px solid;
+
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left: 265px;
+  font-weight:800;
+  font-size:0.8em;
+  transition-duration: 0.5s;
+  transition: 0.3s;
+
+}
+
+.ButtonSign:hover {
+  background-color:#c4c4c4;
+
+}
+.ButtonSign:active {
+  background-color: #888888;
+  transform: translateY(4px);
+}
+
+label3 {
+  display: inline-block;
+  width: 130px;
+  text-align: left;
+  margin-right: 30px;
+  color:#2b78e4;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+label5 {
+  display: inline-block;
+  width: 130px;
+  text-align: left;
+  margin-right: 30px;
+  color:#525252;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+label4 {
+  display: inline-block;
+  margin-top:10px;
+  margin-bottom:10000px;
+  margin-left: 140px;
+  width: -100px;
+}
+
+.notification{
+  color: #D8000C;
+  background-color: #FFBABA;
+  /* background-image: url('https://i.imgur.com/GnyDvKN.png'); */
+  width: 503px;
+  height: 35px;
+margin-top: -100px;
+margin: auto;
+left: 10%;
+right: 10%;
+top: 20%;
+font-size: 20px;
+
+position: fixed;
+}
+  
+
+
+
+.notification2{
+  color: #2b7515;
+  background: #ecffd6;
+  border: 1px solid #617c42;
+  font-size: 15px;
+  
+margin-top: -100px;
+margin: auto;
+left: 10%;
+right: 10%;
+top: 23%;
+position: absolute;
+}
+.notification3{
+  color: #ba3939;
+  background: #ffe0e0;
+  border: 1px solid #a33a3a;
+  width: 400px;
+margin-top: -100px;
+margin: auto;
+left: 10%;
+right: 10%;
+top: 23%;
+position: absolute;
+}
+
+
+i {
+  position:absolute;
+  top: 31.5%;
+  right: 39%;
+ 
+  
+}
+i:hover {
+  color: #dbdbdb;
+  cursor: pointer;
+}
+e {
+  position:absolute;
+  top: 37.1%;
+  right: 39%;
+
+}
+e :hover {
+  color: #dbdbdb;
+  cursor: pointer;
+}
+.FaDizzy{
+  left: 100px;
+}
+
+text2{
+  color:#2b78e4;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:100.1px;
+}
